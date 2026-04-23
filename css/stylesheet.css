@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0; 
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cv-wrapper {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 2px solid #000000;
+}
+
+.foto-perfil {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    font-size: 14px;
+}
+
+.datos-principales {
+    margin-left: 50px;
+}
+
+.datos-principales h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.datos-principales p {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    min-height: 600px;
+}
+
+aside {
+    width: 35%;
+    border-right: 2px solid #000000;
+    padding: 40px 30px;
+}
+
+.contenido-derecho {
+    width: 65%;
+    padding: 40px 50px;
+}
+
+section, article {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-top: 2px solid #000000;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icono-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto-item p {
+    font-size: 16px;
+}
