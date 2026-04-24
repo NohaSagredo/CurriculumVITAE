@@ -101,14 +101,22 @@ footer {
     gap: 15px;
 }
 
-.icono-placeholder {
-    width: 40px;
-    height: 40px;
-    background-color: #e0e0e0;
-    border-radius: 4px;
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.contacto-link {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contacto-link:hover {
+    color: #007bff;
 }
 
 .contacto-item p {
